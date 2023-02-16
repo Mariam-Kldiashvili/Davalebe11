@@ -1,0 +1,39 @@
+.conteiner{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    border: 10px solid red;
+
+}
+
+header{
+    max-width: inherit;
+    width: inherit;
+    padding: 47px 80px 47px 64px;
+    border: 5px solid black;
+    background-color: #13345B;
+;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+ul{
+    display: flex;
+    gap: 52px;
+  
+}
+li{
+    color: #FDD504;
+    font-size: 2.25rem;
+    }
+
+
+
+
+
