@@ -2,7 +2,7 @@
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
-    border: 10px solid red;
+    /* border: 10px solid red; */
 
 }
 
@@ -28,9 +28,15 @@ ul {
 
 }
 
-li {
+.lii {
     color: #FDD504;
     font-size: 2.25rem;
+}
+
+
+.lii:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #FDD504;;
 }
 
 .fa-magnifying-glass, .fa-cart-shopping{
@@ -200,7 +206,14 @@ footer{
 .fa-facebook{
     font-size: 4rem;
     color: #15C1E7;
-}
+  }
+
+  .fa-facebook:hover{
+    cursor: pointer;
+    background-color: white;
+    transition-duration: 2s;
+
+  }
 
 .fa-instagram{
    
@@ -208,16 +221,44 @@ footer{
     color: #FB0110;
     
 }
+
+.fa-instagram:hover{
+    cursor: pointer;
+    background-color: white;
+    transition-duration: 2s;
+   
+
+}
+
 .fa-twitter{
     font-size: 4rem;
     color: #75A1F3;
     
 }
 
+.fa-twitter:hover{
+    cursor: pointer;
+    background-color: white;
+    transition-duration: 2s;
+
+
+}
+
+
+
 .fa-youtube{
     font-size: 4rem;
     color:#FDD504;
 }
+
+.fa-youtube:hover{
+    cursor: pointer;
+    background-color: white;
+    transition-duration: 2s;
+    
+}
+
+
 
 
 
