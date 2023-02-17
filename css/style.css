@@ -173,14 +173,18 @@ label{
     border: none;
 }
 
-.reset{
+input[type="reset"]{
+
     width: 45%;
     font-size: 2.75rem;
     border-radius: 10px;
     height: 108px;
     background-color: #15C1E7;
     color:#FFFFFF;
+
 }
+    
+
 
 
 
