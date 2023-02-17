@@ -33,6 +33,13 @@ li {
     font-size: 2.25rem;
 }
 
+.fa-magnifying-glass, .fa-cart-shopping{
+
+    font-size: 3rem;
+    color: #FDD504;
+}
+
+
 /* main */
 
 main {
